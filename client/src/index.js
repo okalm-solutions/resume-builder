@@ -12,8 +12,9 @@ ReactDOM.render(
     <BrowserRouter>
     <Routes>
       <Route path="/" element={
-        <main style={{ justifyContent: "center", display: "flex", marginTop: "8rem"}}>
+        <main style={{ justifyContent: "center", display: "flex", marginTop: "8rem", flexDirection: "column", alignItems: "center"}}>
           <h1>Welcome To The Homepage</h1>
+          <a href='/login'>Login</a>
         </main>
       } />
       <Route path="/resume" element={<App />} />

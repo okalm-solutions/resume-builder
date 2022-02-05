@@ -27,14 +27,14 @@ export function App () {
   const classes = useStyles();
     return (
         <div className="App">
-        <AppBar position="static">
-            <Toolbar>
-                <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"><MenuIcon /></IconButton>
-                <Typography variant="h6" className={classes.title}>Resume Builder</Typography>
-                <Button color="inherit">Login</Button>
-            </Toolbar>
-        </AppBar>
-        <Resume />
+            <AppBar position="static">
+                <Toolbar>
+                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"><MenuIcon /></IconButton>
+                    <Typography variant="h6" className={classes.title}>Resume Builder</Typography>
+                    <Button color="inherit">Login</Button>
+                </Toolbar>
+            </AppBar>
+            <Resume />
         </div>
     );
   }

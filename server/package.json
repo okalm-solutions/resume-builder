@@ -1,16 +1,15 @@
 {
-	"name": "resume-builder",
+	"name": "resume-builder-backend",
 	"version": "1.0.0",
 	"description": "Resume Builder Application using ReactJS(frontend) and NodeJS(backend)",
 	"main": "server.js",
 	"scripts": {
 		"client-install": "npm install --prefix client",
-		"start": "node server.js",
-		"server": "nodemon server.js",
-		"client": "npm start --prefix client",
+		"start": "node src/server.js",
+		"watch": "nodemon src/server.js",
 		"dev": "concurrently \"npm run server\" \"npm run client\""
 	},
-	"author": "Girish Thatte",
+	"author": "Amir Kalmoni",
 	"license": "MIT",
 	"dependencies": {
 		"body-parser": "^1.19.0",

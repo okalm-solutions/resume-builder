@@ -8,7 +8,7 @@ import DateRangeIcon from '@material-ui/icons/DateRange';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import {Row, Col} from 'react-bootstrap';
 import {Paper, withStyles, Grid} from '@material-ui/core';
-import 'date-fns';
+// import 'date-fns';
 
 const styles = theme => ({
   margin: {

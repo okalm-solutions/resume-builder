@@ -16,7 +16,6 @@ function createResume(req, res){
             res.send(Promise.reject());
         } else res.send(Promise.resolve());
     });
-    return res.status(200).json('Resume Created');
 }
 
 function fetchResume(req, res){

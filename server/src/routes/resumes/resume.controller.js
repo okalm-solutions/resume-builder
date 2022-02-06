@@ -10,7 +10,6 @@ const options = {
 };
 function createResume(req, res){
     pdf.create(pdfTemplate(req.body), options).toFile("Resume.pdf", (err) => {
-        console.log(req.body)
         if (err) {
             console.log(err);
             res.send(Promise.reject());

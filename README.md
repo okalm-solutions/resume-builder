@@ -15,7 +15,7 @@ In the project directory, you can run:
 
 ### `npm run client`
 
-### `npm run dev` --Nodemon server abd watch frontend
+### `npm run dev` --Nodemon server and watch frontend
 ### Deployment
 
 ### `npm run deploy` --Serve production ready html on server PORT

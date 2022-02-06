@@ -9,6 +9,7 @@ import {
 import './index.css';
 import App from './App';
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -22,6 +23,7 @@ ReactDOM.render(
       } />
       <Route path="/app" element={<App />} />
     </Routes>
+    <Footer />
   </BrowserRouter>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

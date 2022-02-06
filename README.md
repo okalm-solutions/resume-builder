@@ -21,7 +21,7 @@ In the project directory, you can run:
 ### `npm run deploy` --Serve production ready html on server PORT
 
 or 
-### `yarn start` -- Open to contribution.
+### 💡 `yarn start` -- Open to contribution.
 
 
 ### Maintained by okalm solution.
